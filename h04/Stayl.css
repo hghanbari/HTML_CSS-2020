@@ -1,0 +1,57 @@
+body {
+    font-family: "Arial";
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+
+}
+
+nav a {
+    color: aliceblue;
+    font: full-width: bold;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 4px;
+}
+
+img {
+    width: 960px;
+    margin: auto;
+}
+
+div.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+table {
+    margin-top: 30px;
+    width: 49%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td.Elek {
+    text-align: right;
+    background-color: #b3ffb3;
+}
+
+td.gas {
+
+    text-align: left;
+    background-color: #b3f0ff;
+}
+
+article {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
