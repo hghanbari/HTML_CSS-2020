@@ -1,0 +1,59 @@
+body {
+
+    font-family: Arial;
+    line-height: 25px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+section.Apple, section.visuals {
+    width: 50%;
+    float: left;
+}
+
+section.visuals {
+    text-align: right;
+}
+
+div#wrapper {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251, 235, 235);
+    padding: 20px;
+}
+
+img.Apple {
+    width: 490px;
+    height: 356px;
+
+}
+
+img.visuals {
+    width: 490px;
+    margin-bottom: 10px;
+}
+
+article {
+    display: inline-block;
+    width: 32%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 0px;
+}
+
+img.article {
+    width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
