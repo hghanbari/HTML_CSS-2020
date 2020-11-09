@@ -2,45 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Burton Education</title>
+    <title>Voorbeeldformulieren</title>
+    <link rel="stylesheet" type="text/css" href="StaylFormulieren.css">
 </head>
-<style>
-
-    form ul{
-    list-style-type: none;
-        padding: 0px;
-    }
-    form ul li{
-        padding: 10px;
-    }
-    form ul li input{
-        position: absolute;
-        left: 150px;
-    }
-</style>
 <body>
-<form action="voorbeeldform.php" method="post">
-<ul>
-    <li>
-        <h2>Burton Education</h2>
-        <span class="verplicht">* verplicht veld</span>
-    </li>
-    <li>
-        <label for="voornaam">Voornam:</label>
-        <input type="text" name="voornaam"/>
-
-    </li>
-    <li>
-        <label for="achternaam">achternaam:</label>
-        <input type="text" name="achternaam"/>
-
-    </li>
-    <li>
-        <input type="submit" name="Knop">
-    </li>
-</ul>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <h1>Voorbeeldformulieren</h1>
 
 
+    <label for="voornaam">Voornam:</label>
+    <input class="texenaam" type="text" name="voornaam" id="voornaam"/>
+
+    <label>lekkereten:</label>
+
+
+    <div class="eten">
+    <input type="checkbox">
+    <label> Sperziebonen</label>
+    </div>
+
+    <label for="tussennaam">Tussennaam:</label>
+    <input class="texenaam" type="text" id="tussennaam" name="tussennaam"/>
+
+    <div class="eten">
+        <input type="checkbox">
+        <label> Aardappelen</label>
+    </div>
+
+    <label for="achternaam">Achternaam:</label>
+    <input class="texenaam" type="text" name="achternaam" id="achternaam"/>
+
+    <div class="eten">
+        <input  type="checkbox">
+        <label> Hamburger</label>
+    </div>
+
+
+    <label>Geslacht:</label>
+    <div id="geslacht">
+    <input type="radio" name="geslacht"  value="m">
+    <label style="width: 100px">Man</label>
+    <input type="radio" name="geslacht"  value="f">
+    <label  style="width: 100px">Vruwen</label>
+    </div>
+
+    <label class="Selectie">colorogg:</label>
+    <select name="oggcolor">
+        <option value="Black">zwart</option>
+        <option value="blue">blauw</option>
+        <option value="brown">brown</option>
+        <option value="Green">Green</option>
+    </select>
+
+    <label class="Selectie">Geboortedag:</label>
+    <input type="date" id="birthday" name="birthday">
+
+    <label class="Selectie">Omschrijving:</label>
+    <textarea type="text" name="omschrijving" class="omschrijving"></textarea>
+
+    <div id="boutten">
+        <button>Annuleer</button>
+        <button>Ok</button>
+    </div>
 </form>
+
 </body>
 </html>

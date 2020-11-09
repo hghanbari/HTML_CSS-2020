@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+html {
+    background-color: beige;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    font-weight: bold;
+    font-variant: full-width;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding: 4px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
+}
+
+div#boutten{
+    grid-column: 3/5;
+}
+
+h1{
+    grid-column: 1/5;
+}
+.eten{
+    display: flex;
+    grid-column: 4/5;
+}
+.texenaam{
+    width: 150px;
+    border: solid 1px;
+}
+.Selectie{
+    display: flex;
+    grid-column: 1/2;
+}
+select{
+    width: 80px;
+}
+input#birthday{
+    width: 105px;
+    height: 15px;
+}
+.omschrijving{
+    display: flex;
+    grid-column: 2/4;
+    height: 100px;
+}
+button{
+    width: 100px;
+}

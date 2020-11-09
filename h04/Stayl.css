@@ -15,7 +15,6 @@ footer {
     padding: 20px;
 
 }
-
 nav {
     background-color: black;
     padding: 10px;
@@ -24,7 +23,8 @@ nav {
 
 nav a {
     color: aliceblue;
-    font: full-width: bold;
+    font-weight: bold;
+    font-variant: full-width;
     text-decoration: none;
     border-right: 2px solid white;
     padding: 4px;
@@ -53,13 +53,13 @@ td {
 }
 
 td.Elek {
-    text-align: right;
+    text-align: center;
     background-color: #b3ffb3;
 }
 
 td.gas {
 
-    text-align: left;
+    text-align: center;
     background-color: #b3f0ff;
 }
 

@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+html {
+    background-color: beige;
+}
+
+body {
+    margin: 0;
+}
+form ul{
+    list-style: none;
+    padding: 0;
+}
+form ul li{
+    padding: 10px;
+}
