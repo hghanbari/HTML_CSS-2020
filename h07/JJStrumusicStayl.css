@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(250, 241, 234);
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(192, 240, 223);
+}
+
+img#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: gray;
+    border-top: 1px solid white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+h3{
+    color: #ff585d;
+    padding: 20px;
+    font-weight: 600;
+}
+ p {
+     margin: 10px;
+ 
+}
