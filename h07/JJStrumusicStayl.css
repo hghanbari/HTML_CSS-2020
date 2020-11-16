@@ -112,7 +112,7 @@ footer h3 {
     }
 
 }
-@media all and (min-width: 920px){
+@media all and (min-width: 1200px){
     div#Music{
         width: 1200px;
         margin: auto;
